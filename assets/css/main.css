@@ -265,6 +265,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		flex-grow: 1;
 	}
 
 		.row > * {
@@ -1766,8 +1767,11 @@ input, select, textarea {
 			}
 
 		.image.fit {
-			display: block;
-			width: 100%;
+
+			
+			/* display: block;
+			max-width:100%;
+    		height:auto; */
 		}
 
 		.image.featured {
@@ -1982,6 +1986,8 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		
+		flex-grow: 1;
 	}
 
 		.item header {
